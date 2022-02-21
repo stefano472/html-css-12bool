@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.w-100 {
+    width: 100%;
+}
+.container {
+    max-width: 1080px;
+}
+
+.bg-blue {
+    height: 180px;
+    border: 1px solid white;
+    background-color: lightblue;
+}
+.bg-green {
+    background-color: lightgreen;
+}
+.bg-black {
+    background-color: black;
+}
+.bg-yellow {
+    background-color: #ffa000;
+}
+.bg-darkyellow {
+    background-color: #a06000;
+}
+.bg-darkblue {
+    background-color: #0040ff;
+}
