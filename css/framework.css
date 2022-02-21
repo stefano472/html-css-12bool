@@ -1,4 +1,7 @@
 /*********************************** general ***********************************/
+[class*="col-"] {
+    flex: 0 0 auto;
+}
 .container {
     max-width: 1170px;
     margin: 0 auto;
@@ -11,8 +14,29 @@
     display: flex;
     flex-flow: column wrap;
 }
-[class*="col-"] {
-    flex: 0 0 auto;
+.justify-center {
+    justify-content: center;
+}
+.justify-end {
+    justify-content: end;
+}
+.justify-around {
+    justify-content: space-around;
+}
+.justify-between {
+    justify-content: space-between;
+}
+.justify-evenly {
+    justify-content: space-evenly;
+}
+.align-start {
+    align-items: start;
+}
+.align-center {
+    align-items: center;
+}
+.align-end {
+    align-items: end;
 }
 
 /******************** X-Small devices (portrait phones, less than 576px)

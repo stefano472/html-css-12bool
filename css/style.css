@@ -6,10 +6,26 @@
 body {
     font-family: 'Montserrat', sans-serif;
 }
-.container  {
-    background-color: lightblue;
+
+/* utilities */
+.padding-10 {
+    padding: 10px;
 }
-.row > * {
+.margin-top-bot-10 {
+    margin: 10px auto 10px;
+}
+.h-100 {
+    height: 100px;
+}
+
+/* main */
+.bg-blue {
     min-height: 50px;
     border: 1px solid white;
+    background-color: lightblue;
+}
+.nested {
+    min-height: 50px;
+    border: 1px solid lightblue;
+    background-color: lightcoral;
 }
